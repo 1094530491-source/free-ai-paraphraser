@@ -25,14 +25,14 @@
     <div class="result" id="result"></div>
   </div>
   <div class="tg">
-    Unlimited use &amp; API Key &rarr; Telegram: <a href="#" target="_blank">@你的TG用户名</a>
+    Powered by DeepSeek AI &mdash; Free to use
   </div>
 
   <script>
     let count = 0;
     async function rewrite() {
       if(count >= 3) {
-        document.getElementById("result").innerText = "Daily limit reached. DM Telegram for unlimited.";
+        document.getElementById("result").innerText = "Daily limit reached. Please try again tomorrow.";
         return;
       }
       let text = document.getElementById("input").value;
